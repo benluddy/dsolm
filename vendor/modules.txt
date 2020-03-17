@@ -45,7 +45,7 @@ github.com/Microsoft/hcsshim/internal/schema2
 github.com/Microsoft/hcsshim/internal/timeout
 github.com/Microsoft/hcsshim/internal/wclayer
 github.com/Microsoft/hcsshim/osversion
-# github.com/NYTimes/gziphandler v1.0.1
+# github.com/NYTimes/gziphandler v0.0.0-20170623195520-56545f4a5d46
 github.com/NYTimes/gziphandler
 # github.com/PuerkitoBio/purell v1.1.1
 github.com/PuerkitoBio/purell
@@ -95,10 +95,10 @@ github.com/coreos/etcd/raft
 github.com/coreos/etcd/raft/raftpb
 # github.com/coreos/go-semver v0.3.0
 github.com/coreos/go-semver/semver
-# github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a
+# github.com/coreos/go-systemd v0.0.0-20180511133405-39ca1b05acc7
 github.com/coreos/go-systemd/daemon
 github.com/coreos/go-systemd/journal
-# github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f
+# github.com/coreos/pkg v0.0.0-20180108230652-97fdf19511ea
 github.com/coreos/pkg/capnslog
 # github.com/cpuguy83/go-md2man v1.0.10
 github.com/cpuguy83/go-md2man/md2man
@@ -233,7 +233,6 @@ github.com/golang-migrate/migrate/v4/source/file
 # github.com/golang/groupcache v0.0.0-20191027212112-611e8accdfc9
 github.com/golang/groupcache/lru
 # github.com/golang/mock v1.3.1
-github.com/golang/mock/gomock
 github.com/golang/mock/mockgen
 github.com/golang/mock/mockgen/model
 # github.com/golang/protobuf v1.3.2
@@ -243,7 +242,7 @@ github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
 github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/google/btree v1.0.0
+# github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
 github.com/google/btree
 # github.com/google/go-cmp v0.3.1
 github.com/google/go-cmp/cmp
@@ -332,7 +331,7 @@ github.com/modern-go/concurrent
 github.com/modern-go/reflect2
 # github.com/morikuni/aec v0.0.0-20170113033406-39771216ff4c
 github.com/morikuni/aec
-# github.com/munnerz/goautoneg v0.0.0-20190414153302-2ae31c8b6b30
+# github.com/munnerz/goautoneg v0.0.0-20120707110453-a547fc61f48d
 github.com/munnerz/goautoneg
 # github.com/opencontainers/go-digest v1.0.0-rc1
 github.com/opencontainers/go-digest
@@ -346,10 +345,8 @@ github.com/opencontainers/runc/libcontainer/user
 github.com/openshift/api/config/v1
 # github.com/openshift/client-go v0.0.0-20190923180330-3b6373338c9b => github.com/openshift/client-go v0.0.0-20190923180330-3b6373338c9b
 github.com/openshift/client-go/config/clientset/versioned
-github.com/openshift/client-go/config/clientset/versioned/fake
 github.com/openshift/client-go/config/clientset/versioned/scheme
 github.com/openshift/client-go/config/clientset/versioned/typed/config/v1
-github.com/openshift/client-go/config/clientset/versioned/typed/config/v1/fake
 github.com/openshift/client-go/config/informers/externalversions
 github.com/openshift/client-go/config/informers/externalversions/config
 github.com/openshift/client-go/config/informers/externalversions/config/v1
@@ -360,6 +357,81 @@ github.com/operator-framework/api/pkg/validation
 github.com/operator-framework/api/pkg/validation/errors
 github.com/operator-framework/api/pkg/validation/interfaces
 github.com/operator-framework/api/pkg/validation/internal
+# github.com/operator-framework/operator-lifecycle-manager v0.0.0 => ./staging/operator-lifecycle-manager
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/install
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/reference
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/v1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/apis/operators/v1alpha1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/internalversion
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/internalversion/scheme
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/internalversion/typed/operators/internalversion
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned/fake
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned/scheme
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned/typed/operators/v1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned/typed/operators/v1/fake
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned/typed/operators/v1alpha1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/clientset/versioned/typed/operators/v1alpha1/fake
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/informers/externalversions
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/informers/externalversions/internalinterfaces
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/informers/externalversions/operators
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/informers/externalversions/operators/v1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/informers/externalversions/operators/v1alpha1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/listers/operators/v1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/client/listers/operators/v1alpha1
+github.com/operator-framework/operator-lifecycle-manager/pkg/api/wrappers
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/bundle
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/certs
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/errors
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/install
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/operators/catalog
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/operators/catalog/subscription
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/operators/olm
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/operators/olm/overrides
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/registry
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/registry/grpc
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/registry/reconciler
+github.com/operator-framework/operator-lifecycle-manager/pkg/controller/registry/resolver
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/clientfake
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/comparison
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/csv
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/event
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/filemonitor
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/index
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/kubestate
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/labeler
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/operatorclient
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/operatorlister
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/operatorstatus
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/ownerutil
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/profile
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/proxy
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/queueinformer
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/scoped
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/scopedclient
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/signals
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/time
+github.com/operator-framework/operator-lifecycle-manager/pkg/lib/version
+github.com/operator-framework/operator-lifecycle-manager/pkg/metrics
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/apis/operators
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/apis/operators/install
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/apis/operators/v1
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/apiserver
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/apiserver/generic
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/client
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/client/clientset/versioned
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/client/clientset/versioned/scheme
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/client/clientset/versioned/typed/operators/v1
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/client/listers/operators/internalversion
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/client/openapi
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/provider
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/server
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/storage
+github.com/operator-framework/operator-lifecycle-manager/pkg/package-server/version
+github.com/operator-framework/operator-lifecycle-manager/pkg/version
+github.com/operator-framework/operator-lifecycle-manager/util/cpb
 # github.com/operator-framework/operator-registry v1.5.8 => ./staging/operator-registry
 github.com/operator-framework/operator-registry/pkg/api
 github.com/operator-framework/operator-registry/pkg/api/grpc_health_v1
@@ -368,7 +440,6 @@ github.com/operator-framework/operator-registry/pkg/configmap
 github.com/operator-framework/operator-registry/pkg/containertools
 github.com/operator-framework/operator-registry/pkg/lib/bundle
 github.com/operator-framework/operator-registry/pkg/registry
-github.com/operator-framework/operator-registry/pkg/server
 github.com/operator-framework/operator-registry/pkg/sqlite
 github.com/operator-framework/operator-registry/pkg/sqlite/migrations
 # github.com/otiai10/copy v1.0.1
@@ -416,11 +487,11 @@ github.com/xeipuuv/gojsonpointer
 github.com/xeipuuv/gojsonreference
 # github.com/xeipuuv/gojsonschema v1.1.0
 github.com/xeipuuv/gojsonschema
-# go.uber.org/atomic v1.4.0
+# go.uber.org/atomic v0.0.0-20181018215023-8dc6146f7569
 go.uber.org/atomic
-# go.uber.org/multierr v1.1.0
+# go.uber.org/multierr v0.0.0-20180122172545-ddea229ff1df
 go.uber.org/multierr
-# go.uber.org/zap v1.10.0
+# go.uber.org/zap v0.0.0-20180814183419-67bc79d13d15
 go.uber.org/zap
 go.uber.org/zap/buffer
 go.uber.org/zap/internal/bufferpool
@@ -498,7 +569,7 @@ golang.org/x/tools/internal/imports
 golang.org/x/tools/internal/module
 golang.org/x/tools/internal/semver
 golang.org/x/tools/internal/span
-# gonum.org/v1/gonum v0.0.0-20190710053202-4340aa3071a0
+# gonum.org/v1/gonum v0.0.0-20190331200053-3d26580ed485
 gonum.org/v1/gonum/blas
 gonum.org/v1/gonum/blas/blas64
 gonum.org/v1/gonum/blas/cblas128
@@ -875,7 +946,6 @@ k8s.io/client-go/discovery
 k8s.io/client-go/discovery/cached/disk
 k8s.io/client-go/discovery/fake
 k8s.io/client-go/dynamic
-k8s.io/client-go/dynamic/fake
 k8s.io/client-go/informers
 k8s.io/client-go/informers/admissionregistration
 k8s.io/client-go/informers/admissionregistration/v1

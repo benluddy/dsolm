@@ -4,6 +4,7 @@ package tools
 
 import (
 	_ "github.com/golang/mock/mockgen"
+	_ "github.com/operator-framework/operator-lifecycle-manager/util/cpb"
 	_ "github.com/maxbrunsfeld/counterfeiter/v6"
 	_ "github.com/mikefarah/yq/v2"
 	_ "k8s.io/code-generator"
