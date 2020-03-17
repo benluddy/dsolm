@@ -16,6 +16,7 @@ require (
 	github.com/openshift/client-go v0.0.0-20190923180330-3b6373338c9b
 	github.com/operator-framework/operator-registry v1.5.8
 	github.com/otiai10/copy v1.0.1
+	github.com/otiai10/curr v1.0.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/prometheus/client_golang v1.2.1
 	github.com/sirupsen/logrus v1.4.2
@@ -41,9 +42,11 @@ require (
 )
 
 replace (
+
 	github.com/docker/docker => github.com/moby/moby v0.7.3-0.20190826074503-38ab9da00309 // Required by Helm
 	github.com/openshift/api => github.com/openshift/api v3.9.1-0.20190924102528-32369d4db2ad+incompatible
 	github.com/openshift/client-go => github.com/openshift/client-go v0.0.0-20190923180330-3b6373338c9b
+	github.com/operator-framework/operator-registry => ./staging/operator-registry
 	github.com/prometheus/client_golang => github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829
 	helm.sh/helm/v3 => helm.sh/helm/v3 v3.0.0-beta.5.0.20200123114618-5e3c7d7eb86a
 
